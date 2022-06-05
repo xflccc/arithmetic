@@ -51,6 +51,10 @@ public class BubbleSort {
         }
     }
 
+    /**
+     * 左神的
+     * @param arr
+     */
     public static void sort(int[] arr){
         if (Objects.isNull(arr) || arr.length<2){
             return;
